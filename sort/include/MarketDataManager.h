@@ -15,7 +15,7 @@ struct TableHead {
 		symbols = new std::string[SYMBOL_NUM_MAX];
 	}
 	~TableHead() {
-		delete []symbols;
+		delete [] symbols;
 	}
 };
 
